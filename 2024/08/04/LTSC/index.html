@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/orange/pace-theme-loading-bar.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="注：安装包放在文末事端太多，一时竟不知从何说起。这是本网站第一篇正式的文章。笔者打算教各位小白安装Microsoft office。“但是”，有的同学会说，“我的电脑里已经有WPS了呀。为什么还要多此一举，来安装一个Microsoft office？有很多原因。我正因此，不知道从何讲起。那就意识流吧，想到哪里写到哪里。 一、其他软件对WPS的适配做得很差1.1 WPS难以支持文献管理软件Zoter">
+<meta property="og:type" content="article">
+<meta property="og:title" content="阿氏圆软件01：Microsoft和WPS政企版的教程">
+<meta property="og:url" content="http://example.com/2024/08/04/LTSC/index.html">
+<meta property="og:site_name" content="阿氏圆的独白">
+<meta property="og:description" content="注：安装包放在文末事端太多，一时竟不知从何说起。这是本网站第一篇正式的文章。笔者打算教各位小白安装Microsoft office。“但是”，有的同学会说，“我的电脑里已经有WPS了呀。为什么还要多此一举，来安装一个Microsoft office？有很多原因。我正因此，不知道从何讲起。那就意识流吧，想到哪里写到哪里。 一、其他软件对WPS的适配做得很差1.1 WPS难以支持文献管理软件Zoter">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/qiongfengle.png">
+<meta property="article:published_time" content="2024-08-04T04:48:47.000Z">
+<meta property="article:modified_time" content="2024-08-04T07:38:05.773Z">
+<meta property="article:author" content="某个阿氏圆">
+<meta property="article:tag" content="lky_office">
+<meta property="article:tag" content="Microsoft office 2021 LTSC">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/qiongfengle.png">
+
+
+<link rel="canonical" href="http://example.com/2024/08/04/LTSC/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2024/08/04/LTSC/","path":"2024/08/04/LTSC/","title":"阿氏圆软件01：Microsoft和WPS政企版的教程"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>阿氏圆软件01：Microsoft和WPS政企版的教程 | 阿氏圆的独白</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">阿氏圆的独白</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E5%AF%B9WPS%E7%9A%84%E9%80%82%E9%85%8D%E5%81%9A%E5%BE%97%E5%BE%88%E5%B7%AE"><span class="nav-number">1.</span> <span class="nav-text">一、其他软件对WPS的适配做得很差</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-WPS%E9%9A%BE%E4%BB%A5%E6%94%AF%E6%8C%81%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6Zotero%E5%92%8CEndnote"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 WPS难以支持文献管理软件Zotero和Endnote</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-CAD%E7%9A%84%E8%A1%A8%E6%A0%BC%EF%BC%8C%E5%BF%85%E9%A1%BB%E7%94%B1Excel%E5%AF%BC%E5%85%A5"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 CAD的表格，必须由Excel导入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3-Origin%E5%92%8Cchemdraw"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 Origin和chemdraw</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81WPS%E4%BC%9A%E9%94%81%E5%AE%9A%E7%94%A8%E6%88%B7%E7%9A%84%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">二、WPS会锁定用户的文档</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E3%80%81WPS%E5%85%8D%E8%B4%B9%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">三、WPS免费？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%BE%A9%E8%AF%81%E5%9C%B0%E7%9C%8B%E5%BE%85WPS"><span class="nav-number">4.</span> <span class="nav-text">四、辩证地看待WPS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%94%E3%80%81LKY-Office%E5%92%8C%E6%94%BF%E4%BC%81%E7%89%88%EF%BC%88%E6%97%A0%E5%B9%BF%E5%91%8A%E3%80%81%E6%97%A0%E9%9C%80VIP%E7%89%88%EF%BC%89%E7%9A%84WPS%E7%9A%84download-links"><span class="nav-number">5.</span> <span class="nav-text">五、LKY_Office和政企版（无广告、无需VIP版）的WPS的download links</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="某个阿氏圆"
+      src="/images/toux.png">
+  <p class="site-author-name" itemprop="name">某个阿氏圆</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/ASYHJM" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ASYHJM" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1008052983?spm_id_from=333.1007.0.0" title="B站 → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1008052983?spm_id_from&#x3D;333.1007.0.0" rel="noopener me" target="_blank"><i class="fab fa-bilibili fa-fw"></i>B站</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:15968121552@163.com" title="163邮箱 → mailto:15968121552@163.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>163邮箱</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/u/7814951169" title="围脖 → https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;7814951169" rel="noopener me" target="_blank"><i class="fab fa-weibo fa-fw"></i>围脖</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/4-4-48-57" title="B乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;4-4-48-57" rel="noopener me" target="_blank"><i class="fab fa-zhihu fa-fw"></i>B乎</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UCXZ7HZnTIZxbL5XU9uBmKLQ" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCXZ7HZnTIZxbL5XU9uBmKLQ" rel="noopener me" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-chain fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://space.bilibili.com/1008052983?spm_id_from=333.1007.0.0" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;1008052983?spm_id_from&#x3D;333.1007.0.0" rel="noopener" target="_blank">遇到相关问题→请私信我的B站→</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://interesting-sky.china-vo.org/archives/" title="https:&#x2F;&#x2F;interesting-sky.china-vo.org&#x2F;archives&#x2F;" rel="noopener" target="_blank">有趣天文奇观</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.apple.com.cn/" title="https:&#x2F;&#x2F;www.apple.com.cn&#x2F;" rel="noopener" target="_blank">苹果中国</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/04/LTSC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/toux.png">
+      <meta itemprop="name" content="某个阿氏圆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="阿氏圆的独白">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="阿氏圆软件01：Microsoft和WPS政企版的教程 | 阿氏圆的独白">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          阿氏圆软件01：Microsoft和WPS政企版的教程
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-08-04 12:48:47 / 修改时间：15:38:05" itemprop="dateCreated datePublished" datetime="2024-08-04T12:48:47+08:00">2024-08-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8A%9E%E5%85%AC%E5%8A%A9%E6%89%8B/" itemprop="url" rel="index"><span itemprop="name">办公助手</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p><strong>注：安装包放在文末</strong><br>事端太多，一时竟不知从何说起。<br>这是本网站第一篇正式的文章。笔者打算教各位小白安装Microsoft office。<br>“但是”，有的同学会说，“我的电脑里已经有WPS了呀。为什么还要多此一举，来安装一个Microsoft office？<br>有很多原因。我正因此，不知道从何讲起。那就意识流吧，想到哪里写到哪里。</p>
+<h1 id="一、其他软件对WPS的适配做得很差"><a href="#一、其他软件对WPS的适配做得很差" class="headerlink" title="一、其他软件对WPS的适配做得很差"></a>一、其他软件对WPS的适配做得很差</h1><h2 id="1-1-WPS难以支持文献管理软件Zotero和Endnote"><a href="#1-1-WPS难以支持文献管理软件Zotero和Endnote" class="headerlink" title="1.1 WPS难以支持文献管理软件Zotero和Endnote"></a>1.1 WPS难以支持文献管理软件Zotero和Endnote</h2><p>关于文献管理软件zotero和endnote如何使用，大家可以去B站观看up主“<a target="_blank" rel="noopener" href="https://space.bilibili.com/384448868/channel/collectiondetail?sid=1024584" title="洋芋锅巴丶">洋芋锅巴丶</a>”的教学视频，以“zotero”和“endnote”为关键词搜索即可。<br>你想想，我们写综述&#x2F;论文，看文献，总得有个管理器吧。还有你看人家大佬的文章末尾这些“参考文献”，难道是一个字一个字手敲上去的？当然不是。<br>zotero和endnote都是国外人员编写的软件，对WPS的适配并不咋地。而你做科研，写文章，有很大概率要用到这两个软件，至少是其中一个。</p>
+<h2 id="1-2-CAD的表格，必须由Excel导入"><a href="#1-2-CAD的表格，必须由Excel导入" class="headerlink" title="1.2 CAD的表格，必须由Excel导入"></a>1.2 CAD的表格，必须由Excel导入</h2><p>上个月帮同学在CAD里倒入aspen的物流信息表。因为该同学使用的是WPS，故而未能成功。我在自己安装了Microsoft office的电脑，和机房的老电脑上都能顺利导入表格。<br><strong>诡异的事情还有，</strong>我帮TA卸载掉电脑里的WPS后，TA桌面上原本的Word、Excel、PowerPoint等图标<strong>全部变白了</strong>!!!<br><del>（WPS：我死也要拉你个Microsoft来垫背！）</del></p>
+<h2 id="1-3-Origin和chemdraw"><a href="#1-3-Origin和chemdraw" class="headerlink" title="1.3 Origin和chemdraw"></a>1.3 Origin和chemdraw</h2><p>看到这里，相信已经有懂行的小伙伴大概猜到笔者本科学的是什么专业了。<br>Origin中的图粘贴到PPT之后，在PPT里双击那张图，可以跳回Origin进行编辑，你WPS能吗？！<br>chemdraw中的图粘贴到Word之后，在Word里双击那张图，可以跳回chemdraw进行编辑，你WPS能吗？！<br>这是我建议你安装Microsoft office的第一个理由。</p>
+<h1 id="二、WPS会锁定用户的文档"><a href="#二、WPS会锁定用户的文档" class="headerlink" title="二、WPS会锁定用户的文档"></a>二、WPS会锁定用户的文档</h1><p>你自己辛辛苦苦写的东西，被某家资本锁定了，气不气？<br>想想都气。凭什么锁定。我写的。我的论文。<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1sT411L7yF/" title="牢马呀牢马">&gt;&gt;B站up主“马督工”对此事的评论</a></p>
+<blockquote>
+<p>看到金山公司这个（恶劣的）回应态度，我的想法也是彻底抛弃国产文字处理软件。因为我是一个靠媒体吃饭的内容创作者，每天都要处理上万字的文档，而且要通过网络工具和同事频繁交换内容。我不可能在内容发表之前就知道有哪些东西不符合金山公司的规矩，所以也就不能预测哪些文档会被处理。类似的事情发生一次，整个工作室的进度都要受影响。连续发生几次，整个团队就都不要吃饭了。————马前卒（1982-2023）</p>
+</blockquote>
+<h1 id="三、WPS免费？"><a href="#三、WPS免费？" class="headerlink" title="三、WPS免费？"></a>三、WPS免费？</h1><blockquote>
+<p>所有免费的礼物，都已在暗中标好了价格。————茨威格</p>
+</blockquote>
+<p>前日，有人在《知乎》上邀请笔者回答问题：<br>“WPS”是不是穷疯了？<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/663323155/answer/3582428102"><img src="/images/qiongfengle.png" alt="图片" title="点击图片跳转至知乎"></a><br>题主说，TA想打印文件，WPS都要收费。<br>这也是国产软件区分其他一些软件的特征：<br><strong>先把你圈起来，让你以为免费。然后张开血盆大口。</strong></p>
+<h1 id="四、辩证地看待WPS"><a href="#四、辩证地看待WPS" class="headerlink" title="四、辩证地看待WPS"></a>四、辩证地看待WPS</h1><p>WPS虽然恶心，但它还是有些“小动作”的，比如聚光灯、护眼模式等。<br><em><strong>但是这些东西都比较杂，导致WPS变得臃肿不堪。WPS只管“有”，却都做得不够精细，可谓是“梧鼠之技”。</strong></em><br>目前Microsoft office的确没有Excel的“聚光灯”这些个功能，但有好在大家针对Microsoft制作了很多插件，比如“<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/7_UBHSBIzh9w4N34I7k2wA"> <del>圆圆鸽子</del> </a>”“<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/i0ErLuQu9pApNY7NuzZQOA">UUOffice</a>”等。</p>
+<h1 id="五、LKY-Office和政企版（无广告、无需VIP版）的WPS的download-links"><a href="#五、LKY-Office和政企版（无广告、无需VIP版）的WPS的download-links" class="headerlink" title="五、LKY_Office和政企版（无广告、无需VIP版）的WPS的download links"></a>五、LKY_Office和<em>政企版（无广告、无需VIP版）的WPS</em>的download links</h1><p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/e9FTcmHGTHojGiE9r31xwA">&gt;&gt;LKY_Office介绍</a><br><a target="_blank" rel="noopener" href="https://wwi.lanzoup.com/b00r263uj">&gt;&gt;LKY_Office安装包</a>        提取码:gkeu<br><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/5CdutnV2vtEZiFEm3ABQYA">&gt;&gt;政企版（无广告、无需VIP版）的WPS介绍</a><br><a target="_blank" rel="noopener" href="https://www.123pan.com/s/xY3DVv-ku5HA">&gt;&gt;WPS安装包</a>        笔者下载的是“中石油专业增强版”。不要忘了下载同一个链接下的“WPS集火.TXT”哟~</p>
+<p>版权声明©<br>本文首发于该网页<br>可以算作是对HEU公众号“知彼而知己”的“文摘”<br>转载请注明出处<br>原创不易，敬请尊重！</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <span class="social-link">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </span>
+
+          <img class="social-item-img" src="/images/wechat_channel.png">
+      </div>
+
+      <div class="social-item">
+          <span class="social-link">
+            <span class="icon">
+              <i class="fab fa-bilibili"></i>
+            </span>
+
+            <span class="label">bilibili</span>
+          </span>
+
+          <img class="social-item-img" src="/images/bilibili_channel.jpg">
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/lky-office/" rel="tag"># lky_office</a>
+              <a href="/tags/Microsoft-office-2021-LTSC/" rel="tag"># Microsoft office 2021 LTSC</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/1919/08/10/hello-world/" rel="prev" title="Hello World">
+                  <i class="fa fa-angle-left"></i> Hello World
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/08/04/OriginAnZhuang/" rel="next" title="阿氏圆软件02：OriginPro的教程">
+                  阿氏圆软件02：OriginPro的教程 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2022 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">某个阿氏圆</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
