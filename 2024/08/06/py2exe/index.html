@@ -29,15 +29,15 @@
 <meta property="og:site_name" content="阿氏圆的独白">
 <meta property="og:description" content="笔者近日重拾Python，花了老半天时间找能把.py转置为.exe的方法。花了不少时间。 pycharm中安装pyinstaller打开pycharm，点击下方的“终端”输入指令： 12pip install -i https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple pyinstaller# pyinstaller的清华园镜像 或者在CMD中输入同样的代码。 powe">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/%5Cimages%5Cpy2exes%5Cp1.png">
-<meta property="og:image" content="http://example.com/%5Cimages%5Cpy2exes%5Cp2.png">
+<meta property="og:image" content="http://example.com/images/py2exes/p1.png">
+<meta property="og:image" content="http://example.com/images/py2exes/p2.png">
 <meta property="article:published_time" content="2024-08-06T05:45:16.000Z">
-<meta property="article:modified_time" content="2024-08-06T06:06:08.077Z">
+<meta property="article:modified_time" content="2024-08-06T06:10:02.692Z">
 <meta property="article:author" content="某个阿氏圆">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="exe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/%5Cimages%5Cpy2exes%5Cp1.png">
+<meta name="twitter:image" content="http://example.com/images/py2exes/p1.png">
 
 
 <link rel="canonical" href="http://example.com/2024/08/06/py2exe/">
@@ -267,7 +267,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-08-06 13:45:16 / 修改时间：14:06:08" itemprop="dateCreated datePublished" datetime="2024-08-06T13:45:16+08:00">2024-08-06</time>
+      <time title="创建时间：2024-08-06 13:45:16 / 修改时间：14:10:02" itemprop="dateCreated datePublished" datetime="2024-08-06T13:45:16+08:00">2024-08-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -296,10 +296,10 @@
     
     
     <div class="post-body" itemprop="articleBody"><p>笔者近日重拾Python，花了老半天时间找能把.py转置为.exe的方法。花了不少时间。</p>
-<h1 id="pycharm中安装pyinstaller"><a href="#pycharm中安装pyinstaller" class="headerlink" title="pycharm中安装pyinstaller"></a>pycharm中安装pyinstaller</h1><p><img src="/%5Cimages%5Cpy2exes%5Cp1.png" alt="P1"><br>打开pycharm，点击下方的“终端”<br>输入指令：</p>
+<h1 id="pycharm中安装pyinstaller"><a href="#pycharm中安装pyinstaller" class="headerlink" title="pycharm中安装pyinstaller"></a>pycharm中安装pyinstaller</h1><p><img src="/images/py2exes/p1.png" alt="P1"><br>打开pycharm，点击下方的“终端”<br>输入指令：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller</span><br><span class="line"># pyinstaller的清华园镜像</span><br></pre></td></tr></table></figure>
 <p>或者在CMD中输入同样的代码。</p>
-<h1 id="power-shell的预备"><a href="#power-shell的预备" class="headerlink" title="power shell的预备"></a>power shell的预备</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_60698858/article/details/123664109">&gt;&gt;Windows上PowerShell默认禁止运行 *.ps1 脚本原因与解决方法</a><br>打开pycharm，右键项目文件夹→打开于→终端<br><strong>注意：这里的“终端”与pycharm界面下方的 “终端”不同。这里的终端是powershell。</strong><br><img src="/%5Cimages%5Cpy2exes%5Cp2.png" alt="P2"><br>照这篇文章说的做。</p>
+<h1 id="power-shell的预备"><a href="#power-shell的预备" class="headerlink" title="power shell的预备"></a>power shell的预备</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_60698858/article/details/123664109">&gt;&gt;Windows上PowerShell默认禁止运行 *.ps1 脚本原因与解决方法</a><br>打开pycharm，右键项目文件夹→打开于→终端<br><strong>注意：这里的“终端”与pycharm界面下方的 “终端”不同。这里的终端是powershell。</strong><br><img src="/images/py2exes/p2.png" alt="P2"><br>照这篇文章说的做。</p>
 <h1 id="pycharm中打包的语法"><a href="#pycharm中打包的语法" class="headerlink" title="pycharm中打包的语法"></a>pycharm中打包的语法</h1><p>在pycharm的powershell终端输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F .\xxxxx.py</span><br></pre></td></tr></table></figure>
 <p>跳出“successful”就好啦！<br>然后去项目文件夹下的<code>disk</code>文件夹，就能找到exe了！</p>
